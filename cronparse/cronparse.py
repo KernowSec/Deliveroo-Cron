@@ -27,7 +27,9 @@ def parse_cron_element(string, fieldtype):
     """
 
     return_list = []
-
+    
+    #if string is *, we just assign the return_list to the value of the list for that fieldtype
+    
     if string == "*":
         return_list = values_dict[fieldtype]
         return ' '.join([str(i) for i in return_list])
