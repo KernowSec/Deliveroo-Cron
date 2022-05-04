@@ -70,13 +70,12 @@ def parse_cron_element(string, fieldtype):
 
         return_list.append(int(segment))
 
-    #otherwise return strin
+    #otherwise return string
 
     return ' '.join([str(i) for i in return_list])
 
 
 def cron_parse(cron_string):
-
     """
     Takes in the whole Cron with the command, and executes the parse_cron function,
     returning the parsed Cron runtime.
@@ -108,7 +107,6 @@ def cron_parse(cron_string):
 #main func
 
 def main():
-
     """Main Entry Point"""
 
     print(cron_parse(argv[1]))
