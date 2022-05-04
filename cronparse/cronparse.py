@@ -2,7 +2,7 @@
 
 from sys import argv
 
-#Use list comprehension to create a list that contains the values in the ranges for each field
+#Create a dict to store the values of the field. i.e minute: 0-59
 
 values_dict = {
     'minute': list(range(0,60)),
