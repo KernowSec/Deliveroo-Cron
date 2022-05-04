@@ -6,7 +6,7 @@ Code for the Cron Parser Technical Task
 
 Once you've cloned the project, run the following command to parse your Cron into a space seperated output, nicely formatted in a table.
 
-```python3 cronparser.py "<CRON_TO_PARSE>"```
+```python3 cronparser.py "<CRON_TO_PARSE> <CMD>"```
 
 Example:
 
